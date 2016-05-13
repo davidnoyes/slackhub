@@ -1,6 +1,7 @@
 language: go
 go:
 - tip
+install:
 deploy:
   provider: releases
   api_key:
