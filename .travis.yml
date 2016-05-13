@@ -1,5 +1,10 @@
 language: go
-
 go:
-    - tip
-
+- tip
+deploy:
+  provider: releases
+  api_key:
+    secure: cUKq94TKQUaREnzPAGw2D6gCEOrymDl89MqihDZEgCHT6q5FY2xL6A1fue6ukGQ68O+G0A5HfyXerKAwEAd9lcPTC2rpB4UgSy/dU5zPekQn3d2i9E1rnfOxu4KqP3AjPCFb/dTLvn6usMqSz3U38NnSzlUfIyOBUYN61S+r2F2wztR0X3smI2JJn8zPnUBwcpDoDZicfPLDZqtfIqahdfoN0hbDpU2RaDD6PzXyMoRgepSKMxcvaJtn5VQi8rw/E2ycXiC8hdO88aYfQ6y/HuSSaGg2r/KTCLR8kDQ78IK88HhoApH5CdK4ZJ51NrAL6kPOGxYT9f9Ok7iEdpDzezFecB534T7PHIgoLPLYx3wAESHu8uc07F7kZOJNvDOxbAgrdGmbe6dQXWAE7norOnLoRTu25RAGKmdYPI8aL67dabYsDG6boxRjbjG/aDYwKY3SFWc08GJypGKtrpqBF3nqMcewWxVUZEgOflaodwn5aLWOybqgqGkUVdhF1flRJtPgDpp7R1Yv9URFSWcO8Ox46OfqFCrifse28dKZFNhKLnvR/9Zdg0Bd4ziuDicdxFtKQNoHE888skPkO8HV75d8kiESIs7n0H5Go6rMmGbJT44TF815WIkL1V1w2RvsEGEMKIRLkTCA/DLDAwAToStTd0MEDjYOY/3ppTHfGL8=
+  file: slackhub
+  on:
+    repo: raspberrypython/slackhub
